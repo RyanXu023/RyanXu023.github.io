@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>啥玩意呀</title>
+        <title>RuiyangXu023</title>
         <link>http://example.org/</link>
-        <description>啥玩意呀</description>
+        <description>RuiyangXu023</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language>
             <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
         </channel>
