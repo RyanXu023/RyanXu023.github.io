@@ -5,16 +5,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <title>Test03 - RuiyangXu023&#39;s BLOG</title><meta name="Description" content="关于"><meta property="og:title" content="Test03" />
-<meta property="og:description" content="这是第一步 问你一个问题哈 fyy，你现在在干嘛？ $$ c = \pm\sqrt{a^2 &#43; b^2} $$ \[ f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi \] \begin{equation*} \rho \frac{\mathrm{D} \mathbf{v}}{\mathrm{D} t}=\nabla \cdot \mathbb{P}&#43;\rho \mathbf{f} \end{equation*} \begin{equation} \mathbf{E}=\sum_{i} \mathbf{E}_{i}=\mathbf{E}_{1}&#43;\mathbf{E}_{2}&#43;\mathbf{E}_{3}&#43;\cdots \end{equation} \begin{align} a&amp;=b&#43;c \\ d&#43;e&amp;=f \end{align} \begin{alignat}{2} 10&amp;x&#43;&amp;3&amp;y = 2 \\ 3&amp;x&#43;&amp;13&amp;y = 4 \end{alignat} \begin{gather} a=b" />
+<meta property="og:description" content="
+
+
+Hugo系列(1) - 简单搭建教程与远程部署
+前言
+使用Hexo搭建个人博客也有两年多时间了，当文章数量达到上百篇之后，开始发现Hexo生成文章的效率越来越慢，直到每次生成都需要至少五分钟的时间。我发现生成效率和文章涉及到的分类和标签有很大关系，由于文章数量多，每篇文章又都关联了若干个分类和标签，再加上我使用了压缩样式的插件，最终导致极其低下的生成效率。
+在经过一段时间的考量后，决定将Hexo博客迁移到Hugo。Hugo是用go语言开发的，在用法上和Hexo类似，可以简单地把Hugo当成go语言版的Hexo，但是它拥有更快的生成效率。下面是官网的原话：" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://example.com/test03/" /><meta property="og:image" content="https://example.com/log01.png"/><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://example.com/test03/" /><meta property="og:image" content="https://example.com/fengge.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-05-02T20:52:08+08:00" />
 <meta property="article:modified_time" content="2023-05-02T20:52:08+08:00" />
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://example.com/log01.png"/>
+<meta name="twitter:image" content="https://example.com/fengge.png"/>
 
 <meta name="twitter:title" content="Test03"/>
-<meta name="twitter:description" content="这是第一步 问你一个问题哈 fyy，你现在在干嘛？ $$ c = \pm\sqrt{a^2 &#43; b^2} $$ \[ f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi \] \begin{equation*} \rho \frac{\mathrm{D} \mathbf{v}}{\mathrm{D} t}=\nabla \cdot \mathbb{P}&#43;\rho \mathbf{f} \end{equation*} \begin{equation} \mathbf{E}=\sum_{i} \mathbf{E}_{i}=\mathbf{E}_{1}&#43;\mathbf{E}_{2}&#43;\mathbf{E}_{3}&#43;\cdots \end{equation} \begin{align} a&amp;=b&#43;c \\ d&#43;e&amp;=f \end{align} \begin{alignat}{2} 10&amp;x&#43;&amp;3&amp;y = 2 \\ 3&amp;x&#43;&amp;13&amp;y = 4 \end{alignat} \begin{gather} a=b"/>
+<meta name="twitter:description" content="
+
+
+Hugo系列(1) - 简单搭建教程与远程部署
+前言
+使用Hexo搭建个人博客也有两年多时间了，当文章数量达到上百篇之后，开始发现Hexo生成文章的效率越来越慢，直到每次生成都需要至少五分钟的时间。我发现生成效率和文章涉及到的分类和标签有很大关系，由于文章数量多，每篇文章又都关联了若干个分类和标签，再加上我使用了压缩样式的插件，最终导致极其低下的生成效率。
+在经过一段时间的考量后，决定将Hexo博客迁移到Hugo。Hugo是用go语言开发的，在用法上和Hexo类似，可以简单地把Hugo当成go语言版的Hexo，但是它拥有更快的生成效率。下面是官网的原话："/>
 <meta name="application-name" content="xxx&#39;s Blog">
 <meta name="apple-mobile-web-app-title" content="xxx&#39;s Blog"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -29,7 +41,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/example.com\/test03\/"
-        },"image": ["https:\/\/example.com\/images\/Apple-Devices-Preview.png"],"genre": "posts","wordcount":  97 ,
+        },"image": ["https:\/\/example.com\/images\/Apple-Devices-Preview.png"],"genre": "posts","wordcount":  4663 ,
         "url": "https:\/\/example.com\/test03\/","datePublished": "2023-05-02T20:52:08+08:00","dateModified": "2023-05-02T20:52:08+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "RyanXu023","logo": "https:\/\/example.com\/images\/avatar.png"},"author": {
@@ -43,10 +55,17 @@
         <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
     <div class="header-wrapper">
         <div class="header-title">
-            <a href="/" title="RuiyangXu023&#39;s BLOG"><span class="header-title-pre"><i class='fas fa-heart fa-fw'></i></span>RuiyangXu&#39;s Blog</a>
+            <a href="/" title="RuiyangXu023&#39;s BLOG"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/fengge.png"
+        data-srcset="/images/fengge.png, /images/fengge.png 1.5x, /images/fengge.png 2x"
+        data-sizes="auto"
+        alt="/images/fengge.png"
+        title="/images/fengge.png" />RuiyangXu&#39;s Blog</a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/categories/documentation/"> 文档 </a><a class="menu-item" href="/about/"> 关于 </a><a class="menu-item" href="https://github.com/xxx" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/categories/documentation/"> 文档 </a><a class="menu-item" href="/about/"> 关于 </a><a class="menu-item" href="https://github.com/ryanxu023" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
                         <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
                         <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
                             <i class="fas fa-search fa-fw" aria-hidden="true"></i>
@@ -59,9 +78,6 @@
                         </span>
                     </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
                     <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-                </a><a href="javascript:void(0);" class="menu-item language" title="选择语言">
-                    <i class="fa fa-globe" aria-hidden="true"></i>                      
-                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/test03/" selected>简体中文</option></select>
                 </a></div>
         </div>
     </div>
@@ -69,7 +85,14 @@
     <div class="header-container">
         <div class="header-wrapper">
             <div class="header-title">
-                <a href="/" title="RuiyangXu023&#39;s BLOG"><span class="header-title-pre"><i class='fas fa-heart fa-fw'></i></span>RuiyangXu&#39;s Blog</a>
+                <a href="/" title="RuiyangXu023&#39;s BLOG"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/fengge.png"
+        data-srcset="/images/fengge.png, /images/fengge.png 1.5x, /images/fengge.png 2x"
+        data-sizes="auto"
+        alt="/images/fengge.png"
+        title="/images/fengge.png" />RuiyangXu&#39;s Blog</a>
             </div>
             <div class="menu-toggle" id="menu-toggle-mobile">
                 <span></span><span></span><span></span>
@@ -91,12 +114,9 @@
                     <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
                         取消
                     </a>
-                </div><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/categories/documentation/" title="">文档</a><a class="menu-item" href="/about/" title="">关于</a><a class="menu-item" href="https://github.com/xxx" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                </div><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/categories/documentation/" title="">文档</a><a class="menu-item" href="/about/" title="">关于</a><a class="menu-item" href="https://github.com/ryanxu023" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
                 <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">
-                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
-                    <select class="language-select" onchange="location = this.value;"><option value="/test03/" selected>简体中文</option></select>
-                </a></div>
+            </a></div>
     </div>
 </header><div class="search-dropdown desktop">
         <div id="search-dropdown-desktop"></div>
@@ -109,8 +129,8 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Test03</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Ruiyang Xu</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-05-02">2023-05-02</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 97 字&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 1 分钟&nbsp;<span id="/test03/" class="leancloud_visitors" data-flag-title="Test03">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-05-02">2023-05-02</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 4663 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 10 分钟&nbsp;<span id="/test03/" class="leancloud_visitors" data-flag-title="Test03">
                         <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
                     </span>&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
@@ -120,53 +140,448 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#这是第一步">这是第一步</a></li>
-    <li><a href="#问你一个问题哈">问你一个问题哈</a></li>
-    <li><a href="#这是第一步-1">这是第一步</a></li>
-    <li><a href="#step-2">step 2</a>
+    <li><a href="#hugo系列1---简单搭建教程与远程部署">Hugo系列(1) - 简单搭建教程与远程部署</a>
       <ul>
-        <li><a href="#step-21">step 2.1</a></li>
+        <li><a href="#前言">前言</a></li>
+        <li><a href="#安装">安装</a></li>
+        <li><a href="#创建站点">创建站点</a></li>
+        <li><a href="#添加主题">添加主题</a></li>
+        <li><a href="#新建文章">新建文章</a>
+          <ul>
+            <li><a href="#toml-example">TOML Example</a></li>
+            <li><a href="#yaml-example">YAML Example</a></li>
+            <li><a href="#json-example">JSON Example</a></li>
+          </ul>
+        </li>
+        <li><a href="#启动hugo服务">启动Hugo服务</a></li>
+        <li><a href="#生成静态页面">生成静态页面</a></li>
+        <li><a href="#远程部署到pages服务">远程部署到Pages服务</a>
+          <ul>
+            <li><a href="#安装git">安装Git</a></li>
+            <li><a href="#在github上创建一个仓库">在GitHub上创建一个仓库</a></li>
+            <li><a href="#ssh-key的创建与配置">SSH key的创建与配置</a></li>
+            <li><a href="#在本地关联github的站点仓库">在本地关联GitHub的站点仓库</a></li>
+          </ul>
+        </li>
+        <li><a href="#启用github-pages服务">启用GitHub Pages服务</a>
+          <ul>
+            <li><a href="#通过master分支来启用github-pages">通过master分支来启用GitHub Pages</a></li>
+            <li><a href="#通过gh-pages分支来启用github-pages">通过<code>gh-pages</code>分支来启用GitHub Pages</a></li>
+          </ul>
+        </li>
+        <li><a href="#怎么同时部署到两个不同的pages服务">怎么同时部署到两个不同的Pages服务</a></li>
+        <li><a href="#参考链接">参考链接</a></li>
       </ul>
     </li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h1 id="这是第一步">这是第一步</h1>
-<h1 id="问你一个问题哈">问你一个问题哈</h1>
-<p>fyy，你现在在干嘛？
-$$
-c = \pm\sqrt{a^2 + b^2}
-$$</p>
-<p>\[ f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi \]</p>
-<p>\begin{equation*}
-\rho \frac{\mathrm{D} \mathbf{v}}{\mathrm{D} t}=\nabla \cdot \mathbb{P}+\rho \mathbf{f}
-\end{equation*}</p>
-<p>\begin{equation}
-\mathbf{E}=\sum_{i} \mathbf{E}_{i}=\mathbf{E}_{1}+\mathbf{E}_{2}+\mathbf{E}_{3}+\cdots
-\end{equation}</p>
-<p>\begin{align}
-a&amp;=b+c \\
-d+e&amp;=f
-\end{align}</p>
-<p>\begin{alignat}{2}
-10&amp;x+&amp;3&amp;y = 2 \\
-3&amp;x+&amp;13&amp;y = 4
-\end{alignat}</p>
-<p>\begin{gather}
-a=b \\
-e=b+c
-\end{gather}</p>
-<p>\begin{CD}
-A @&gt;a&gt;&gt; B \\
-@VbVV @AAcA \\
-C @= D
-\end{CD}</p>
-<h1 id="这是第一步-1">这是第一步</h1>
-<p>teest</p>
-<h1 id="step-2">step 2</h1>
-<p>test</p>
-<h2 id="step-21">step 2.1</h2>
-<p>gogo</p>
-</div><div class="post-footer" id="post-footer">
+            </div><div class="content" id="content"><figure><img src="/images/lighthouse.jpg"/>
+</figure>
+
+<h1 id="hugo系列1---简单搭建教程与远程部署">Hugo系列(1) - 简单搭建教程与远程部署</h1>
+<h2 id="前言">前言</h2>
+<p>使用Hexo搭建个人博客也有两年多时间了，当文章数量达到上百篇之后，开始发现Hexo生成文章的效率越来越慢，直到每次生成都需要至少五分钟的时间。我发现生成效率和文章涉及到的分类和标签有很大关系，由于文章数量多，每篇文章又都关联了若干个分类和标签，再加上我使用了压缩样式的插件，最终导致极其低下的生成效率。</p>
+<p>在经过一段时间的考量后，决定将Hexo博客迁移到Hugo。Hugo是用go语言开发的，在用法上和Hexo类似，可以简单地把Hugo当成go语言版的Hexo，但是它拥有更快的生成效率。下面是官网的原话：</p>
+<blockquote>
+<p><strong>The world’s fastest framework for building websites</strong></p>
+<p>Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.</p>
+</blockquote>
+<h2 id="安装">安装</h2>
+<p>和Hexo不同，Hugo安装非常简单，只需要去<a href="https://github.com/gohugoio/hugo/releases" target="_blank" rel="noopener noreffer ">Hugo Release</a>下载操作系统对应的二进制文件即可（<code>hugo</code>或者<code>hugo.exe</code>)。</p>
+<p>对于Windows平台，一般是一个zip文件，解压后里面有个<code>hugo.exe</code>文件。将该文件所在目录添加到环境变量<code>path</code>里，即可在cmd里通过<code>hugo version</code>检测是否能正常运行hugo命令。</p>
+<p>如下是我安装的hugo版本：</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cmd" data-lang="cmd"><span style="display:flex;"><span>&gt;hugo version
+</span></span><span style="display:flex;"><span>Hugo Static Site Generator v0.74.2/extended windows/amd64 BuildDate: unknown
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>其他平台的安装方法可以参考官方文档：<a href="https://gohugo.io/getting-started/installing/" target="_blank" rel="noopener noreffer ">Install Hugo</a></p>
+<h2 id="创建站点">创建站点</h2>
+<p>首先需要创建一个新的个人站点：</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cmd" data-lang="cmd"><span style="display:flex;"><span>hugo new site blog
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><code>blog</code>就是你的博客站点所在的目录，也是这个站点的根目录，创建站点后目录结构如下：</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>archetypes/
+</span></span><span style="display:flex;"><span>content/
+</span></span><span style="display:flex;"><span>data/
+</span></span><span style="display:flex;"><span>layouts/
+</span></span><span style="display:flex;"><span>static/
+</span></span><span style="display:flex;"><span>themes/
+</span></span><span style="display:flex;"><span>config.toml
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>下面简单介绍下Hugo根目录下的各个文件目录的作用：</p>
+<ul>
+<li><code>archetypes</code>存放创建文件时使用的模板，可以自定义<code>front matter</code>属性。</li>
+<li><code>assets</code>存放需要被<code>Hugo Pipes</code>处理的文件，且只有使用了<code>.Permalink</code>或者<code>.RelPermalink</code>的文件才能被发布到<code>public</code>目录。
+<strong>注意，默认不会创建<code>assets</code>目录。</strong></li>
+<li><code>config</code>是配置文件，可以有<code>JSON</code>、 <code>YAML</code>或者<code>TOML</code>三种格式，默认使用根目录下的<code>config.toml</code>、<code>config.yaml</code>或<code>config.json</code>中的某一个。可以通过<code>--config</code>来配置读取一个或多个配置文件，如：<code>hugo --config a.toml,b.toml,c.toml</code>。
+<strong>注意，默认不会创建<code>config</code>目录。</strong></li>
+<li><code>content</code>存放的各种md文件用于部署站点，该目录下可以自行创建若干个子目录来便于对文章进行分类，这些子目录被称为<code>section</code>。</li>
+<li><code>data</code>目录存放的是用于定义变量的模板文件，相当于Java里的常量类，这些文件有<code>JSON</code>、 <code>YAML</code>或者<code>TOML</code>三种格式，会在生成站点时被使用到。一般用不到该功能，具体用法可以参考：<a href="https://gohugo.io/templates/data-templates/" target="_blank" rel="noopener noreffer ">data templates</a></li>
+<li><code>layouts</code>目录存放的模板文件用于渲染html页面，模板里可以定义不同页面的html代码。</li>
+<li><code>static</code>目录存放的是静态内容：图片、CSS、JavaScript等。</li>
+<li><code>resources</code>目录用于缓存某些文件来提高生成效率。
+<strong>注意，默认不会创建<code>resources</code>目录。</strong></li>
+</ul>
+<h2 id="添加主题">添加主题</h2>
+<p>为新站点添加一个主题，以我使用的<code>LoveIt</code>主题为例，先将主题代码放置到<code>themes</code>目录下：</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cmd" data-lang="cmd"><span style="display:flex;"><span><span style="color:#66d9ef">cd</span> blog
+</span></span><span style="display:flex;"><span>git init
+</span></span><span style="display:flex;"><span>git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>接着修改<code>config.toml</code>：</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>theme = &#34;LoveIt&#34;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>这里的<code>LoveIt</code>对应<code>themes</code>目录下的主题的文件夹名字。</p>
+<h2 id="新建文章">新建文章</h2>
+<p>新建一篇文章：</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cmd" data-lang="cmd"><span style="display:flex;"><span>hugo new posts/first.md
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>该命令会在<code>content/posts</code>目录下生成<code>first.md</code>文件，打开进行编辑：</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>title: &#34;First&#34;
+</span></span><span style="display:flex;"><span>date: 2020-09-08T21:57:28+08:00
+</span></span><span style="display:flex;"><span>draft: true
+</span></span><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>## First
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>First blog.
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>两行<code>---</code>里的属性是<code>front matter</code>，用来设置当前文章的属性配置。<code>front matter</code>的内容可以使用3种不同的格式来定义，两行<code>---</code>之间对应的是<code>YAML</code>格式，两行<code>+++</code>之间对应的是<code>TOML</code>格式，<code>{</code>和<code>}</code>之间对应的是<code>JSON</code>格式。</p>
+<p>建议用<code>YAML</code>格式来定义，这样从Hexo迁移到Hugo的成本会更低。</p>
+<p>下面是官方文档提供的3种不同格式的front matter的样例，有兴趣的可以了解下。</p>
+<h3 id="toml-example">TOML Example</h3>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>+++
+</span></span><span style="display:flex;"><span>title = &#34;spf13-vim 3.0 release and new website&#34;
+</span></span><span style="display:flex;"><span>description = &#34;spf13-vim is a cross platform distribution of vim plugins and resources for Vim.&#34;
+</span></span><span style="display:flex;"><span>tags = [ &#34;.vimrc&#34;, &#34;plugins&#34;, &#34;spf13-vim&#34;, &#34;vim&#34; ]
+</span></span><span style="display:flex;"><span>date = &#34;2012-04-06&#34;
+</span></span><span style="display:flex;"><span>categories = [
+</span></span><span style="display:flex;"><span>  &#34;Development&#34;,
+</span></span><span style="display:flex;"><span>  &#34;VIM&#34;
+</span></span><span style="display:flex;"><span>]
+</span></span><span style="display:flex;"><span>slug = &#34;spf13-vim-3-0-release-and-new-website&#34;
+</span></span><span style="display:flex;"><span>+++
+</span></span><span style="display:flex;"><span>Content of the file goes Here
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="yaml-example">YAML Example</h3>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>title: &#34;spf13-vim 3.0 release and new website&#34;
+</span></span><span style="display:flex;"><span>description: &#34;spf13-vim is a cross platform distribution of vim plugins and resources for Vim.&#34;
+</span></span><span style="display:flex;"><span>tags: [ &#34;.vimrc&#34;, &#34;plugins&#34;, &#34;spf13-vim&#34;, &#34;vim&#34; ]
+</span></span><span style="display:flex;"><span>lastmod: 2015-12-23
+</span></span><span style="display:flex;"><span>date: &#34;2012-04-06&#34;
+</span></span><span style="display:flex;"><span>categories:
+</span></span><span style="display:flex;"><span>  - &#34;Development&#34;
+</span></span><span style="display:flex;"><span>  - &#34;VIM&#34;
+</span></span><span style="display:flex;"><span>slug: &#34;spf13-vim-3-0-release-and-new-website&#34;
+</span></span><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Content of the file goes Here
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="json-example">JSON Example</h3>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    &#34;title&#34;: &#34;spf13-vim 3.0 release and new website&#34;,
+</span></span><span style="display:flex;"><span>    &#34;description&#34;: &#34;spf13-vim is a cross platform distribution of vim plugins and resources for Vim.&#34;,
+</span></span><span style="display:flex;"><span>    &#34;tags&#34;: [ &#34;.vimrc&#34;, &#34;plugins&#34;, &#34;spf13-vim&#34;, &#34;vim&#34; ],
+</span></span><span style="display:flex;"><span>    &#34;date&#34;: &#34;2012-04-06&#34;,
+</span></span><span style="display:flex;"><span>    &#34;categories&#34;: [
+</span></span><span style="display:flex;"><span>        &#34;Development&#34;,
+</span></span><span style="display:flex;"><span>        &#34;VIM&#34;
+</span></span><span style="display:flex;"><span>    ],
+</span></span><span style="display:flex;"><span>    &#34;slug&#34;: &#34;spf13-vim-3-0-release-and-new-website&#34;,
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Content of the file goes Here
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="启动hugo服务">启动Hugo服务</h2>
+<p>输入命令：</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cmd" data-lang="cmd"><span style="display:flex;"><span>hugo server -D
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>在本地启动服务后可以在 http://localhost:1313/ 访问个人站点。该命令仅用于本地调试，支持热修改，也就是说在启动服务时修改文章会实时生效，但是该命令不会真正生成静态文件。</p>
+<h2 id="生成静态页面">生成静态页面</h2>
+<p>输入命令：</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cmd" data-lang="cmd"><span style="display:flex;"><span>hugo -D
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>默认会在站点根目录的<code>public/</code>目录下生成对应的静态页面，可以通过在命令行指定<code>-d</code>或者<code>--destination</code>参数来改变静态页面的存放路径，也可以通过在配置文件中设置<code>publishDir</code>来指定。</p>
+<p>该命令生成的静态页面文件是用来部署到pages服务的，比如GitHub pages或者Coding pages等。</p>
+<p>另外，hugo允许对生成的静态页面设置特殊的参数，比如在文章的<code>front matter</code>里设置参数：<code>draft</code>, <code>publishdate</code>和<code>expirydate</code>。如下：</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>title: &#34;First&#34;
+</span></span><span style="display:flex;"><span>date: 2020-09-08T21:57:28+08:00
+</span></span><span style="display:flex;"><span>draft: true
+</span></span><span style="display:flex;"><span>publishdate: 2020-09-18T21:57:28+08:00
+</span></span><span style="display:flex;"><span>expirydate: 2020-09-28T21:57:28+08:00
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><code>draft: true</code>表明该文章是草稿，如果在启用服务时不指定参数<code>-D</code>或<code>--buildDrafts</code>，或者在配置文件<code>config.toml</code>中配置<code>buildDrafts = true</code>，则会在生成文章时忽略草稿。如果不想指定该参数就生成文章，需要改为<code>draft: false</code>或者将其删去。</p>
+<p><code>publishdate: 2020-09-18T21:57:28+08:00</code>表示将来发布的时间，如果不指定参数<code>-F</code>或<code>--buildFuture</code>，或者在配置文件<code>config.toml</code>中配置<code>buildFuture = true</code>，则无法在规定的日期之前生成该文章。</p>
+<p><code>expirydate: 2020-09-28T21:57:28+08:00</code>表示过期时间，如果不指定参数<code>-E</code>或<code>--buildExpired</code>，或者在配置文件<code>config.toml</code>中配置<code>buildExpired = true</code>，则无法在规定的日期之后生成该文章。</p>
+<h2 id="远程部署到pages服务">远程部署到Pages服务</h2>
+<p>Hugo和Hexo一样是静态站点生成工具，不需要服务器即可进行部署运行，为了可以在网络上也访问到我们的博客，需要将静态博客部署到某些网站的pages服务上，借用人家的服务器进行托管。</p>
+<p>常用的Pages服务有GitHub pages、Coding pages等，由于暂时没有找到好用的Hugo的远程部署插件，所以这里使用Git命令来进行远程部署。</p>
+<p><strong>注意，所谓的远程部署，其实就是把<code>hugo</code>命令生成的<code>public</code>目录里的所有文件push到远程库，然后启用Pages服务进行静态网站的部署。这样，当有人访问静态站点的主页时，Pages服务就会去读取根目录下的<code>index.html</code>。</strong></p>
+<p>本文以部署到GitHub Pages为例。</p>
+<h3 id="安装git">安装Git</h3>
+<p>首先要安装Git，Git是一个版本控制工具，可以用来帮忙管理我们的博客，直接前往官网下载安装包即可。</p>
+<blockquote>
+<p><a href="https://git-scm.com/" target="_blank" rel="noopener noreffer ">下载链接</a></p>
+</blockquote>
+<p>在安装的时候会问你是否安装git的cmd工具，把这个也一起安装了后就可以不需要配置环境变量了。这样就可以直接在cmd窗口里运行Git命令，如<code>git version</code>。</p>
+<p>当然也可以直接使用安装时自带的Git Bash，个人更喜欢用Git Bash。</p>
+<h3 id="在github上创建一个仓库">在GitHub上创建一个仓库</h3>
+<p>首先在GitHub上创建一个仓库，仓库的名字格式为<code>&lt;username&gt;.github.io</code>。比如我的GitHub用户名是lewky，那么这个仓库就命名为<code>lewky.github.io</code>。</p>
+<p>之所以这样规定命名，是因为GitHub默认会把<code>&lt;username&gt;.github.io</code>的master分支的内容部署到GitHub Pages站点上。</p>
+<h3 id="ssh-key的创建与配置">SSH key的创建与配置</h3>
+<p>因为要使用SSH的方式来和GitHub仓库进行交互，我们需要生成一对密钥对，然后将公钥配置到GitHub账号上。关于SSH key的创建与配置到GitHub，可以看我的另一篇文章的一个小章节：<a href="https://lewky.cn/posts/1657.html/#%e5%9b%9bssh-key%e7%9a%84%e5%88%9b%e5%bb%ba%e4%b8%8e%e9%85%8d%e7%bd%ae" target="_blank" rel="noopener noreffer ">#四、SSH key的创建与配置</a> 的4.1 ~ 4.3的部分。</p>
+<h3 id="在本地关联github的站点仓库">在本地关联GitHub的站点仓库</h3>
+<p>在本地创建一个新的文件夹，比如名为<code>hugo-deploy</code>。首先是初始化该文件夹为Git项目，命令如下：</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>git init
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后把本地的Hugo博客通过<code>hugo</code>命令生成的<code>public</code>目录下的所有文件都复制到这个新建的文件夹<code>hugo-deploy</code>里，然后用Git命令把这些复制过来的文件添加到本地仓库：</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>git add .
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>接着是提交修改，命令如下：</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>git commit -m &#34;第一次提交&#34;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><code>-m</code>参数代表提交信息，用于说明本次提交的目的，比如你发布了什么文章、修改了什么样式之类的信息说明。该参数不可以省略，不然会报错，另外要注意这里的双引号是<strong>英文的双引号</strong>。</p>
+<p>接着把刚刚在GitHub上创建的仓库的SSH地址复制下来：点击GitHub仓库的<code>Code</code>绿色按钮，点击<code>SSH</code>就可以看到该仓库的SSH地址，然后点击地址后面的复制按钮即可。</p>
+<p>用Git命令把这个SSH地址添加到我们的本地仓库，这样这个GitHub仓库就将作为我们的远程仓库，然后就可以通过Git命令把站点文件部署到GitHub上：</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>git remote add origin git@github.com:lewky/lewky.github.io.git
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>这里的<code>origin</code>是远程库的别名，后面是要关联的远程库SSH地址。</p>
+<p>然后就是最后一步了，把我们刚刚提交到本地库的文件给推送到远程库。由于远程库刚刚创建，还不存在本地的分支（默认是master分支），所以第一次提交的命令要加是一个<code>-u</code>参数：</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>git push -u origin master
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>这样GitHub远程库上会创建出对应的<code>master</code>分支，以后推送文件的时候，就不需要再加上该参数了：</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>git push origin master
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="启用github-pages服务">启用GitHub Pages服务</h2>
+<h3 id="通过master分支来启用github-pages">通过master分支来启用GitHub Pages</h3>
+<p>现在我们的GitHub仓库里已经有站点的文件了，接下来点击<code>Settings</code>进入该仓库的设置页面，找到<code>Github Pages</code>这一项，选择以<code>master</code>分支作为<code>Source</code>，然后保存；接下来这个仓库就会被部署到<code>https://{username}.github.io/{仓库名}</code>。</p>
+<p>你会发现这里的url里多了子路径，但是如果仓库名是<code>{username}.github.io</code>的格式，那该url就会被简化为<code>https://{username}.github.io/</code>，这样就不需要在url后边添加上仓库名来访问个人站点了。</p>
+<h3 id="通过gh-pages分支来启用github-pages">通过<code>gh-pages</code>分支来启用GitHub Pages</h3>
+<p>还有一种启用的方式是给仓库创建一个名为<code>gh-pages</code>的分支，然后把该分支设置为<code>Source</code>，同样可以让该仓库使用到GitHub Pages服务。</p>
+<p>这种启用方式是只有当存在多个项目都要使用GitHub Pages才使用的，因为目前GitHub只允许一个仓库可以通过master分支来启用GitHub Pages。如果其他仓库也要使用GitHub Pages，就需要创建<code>gh-pages</code>分支来部署。</p>
+<h2 id="怎么同时部署到两个不同的pages服务">怎么同时部署到两个不同的Pages服务</h2>
+<p>进入本地仓库的目录，打开隐藏文件夹<code>.git</code>下的<code>config</code>文件，多添加一行<code>url = xxx</code>，如下：</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>[core]
+</span></span><span style="display:flex;"><span>	repositoryformatversion = 0
+</span></span><span style="display:flex;"><span>	filemode = false
+</span></span><span style="display:flex;"><span>	bare = false
+</span></span><span style="display:flex;"><span>	logallrefupdates = true
+</span></span><span style="display:flex;"><span>	symlinks = false
+</span></span><span style="display:flex;"><span>	ignorecase = true
+</span></span><span style="display:flex;"><span>[remote &#34;origin&#34;]
+</span></span><span style="display:flex;"><span>	url = git@github.com:lewky/lewky.github.io.git
+</span></span><span style="display:flex;"><span>	url = git@e.coding.net:lewky/hugo-deploy/hugo-deploy.git
+</span></span><span style="display:flex;"><span>	fetch = +refs/heads/*:refs/remotes/origin/*
+</span></span><span style="display:flex;"><span>[pull]
+</span></span><span style="display:flex;"><span>	rebase = true
+</span></span><span style="display:flex;"><span>[branch &#34;master&#34;]
+</span></span><span style="display:flex;"><span>	remote = origin
+</span></span><span style="display:flex;"><span>	merge = refs/heads/master
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>此后只需要<code>git push origin master</code>就可以同时推送到多个远程库。</p>
+<h2 id="参考链接">参考链接</h2>
+<ul>
+<li><a href="https://www.gohugo.org/doc/content/front-matter/" target="_blank" rel="noopener noreffer ">Hugo Front Matter</a></li>
+<li><a href="https://gohugo.io/getting-started/quick-start/" target="_blank" rel="noopener noreffer ">Hugo Quick Start</a></li>
+<li><a href="https://gohugo.io/getting-started/installing/" target="_blank" rel="noopener noreffer ">Install Hugo</a></li>
+<li><a href="https://gohugo.io/getting-started/directory-structure/" target="_blank" rel="noopener noreffer ">Directory Structure Explained</a></li>
+<li><a href="https://blog.csdn.net/zamamiro/article/details/70172900" target="_blank" rel="noopener noreffer ">Git的使用&ndash;如何将本地项目上传到Github</a></li>
+<li><a href="https://www.jianshu.com/p/edc85a20ada9" target="_blank" rel="noopener noreffer ">git push同时推送到两个远程仓库</a></li>
+</ul></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">

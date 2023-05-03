@@ -10,7 +10,13 @@
     <pubDate>Tue, 02 May 2023 20:52:08 &#43;0800</pubDate>
     <author>Ruiyang Xu</author>
     <guid>https://example.com/test03/</guid>
-    <description><![CDATA[这是第一步 问你一个问题哈 fyy，你现在在干嘛？ $$ c = \pm\sqrt{a^2 + b^2} $$ \[ f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi \] \begin{equation*} \rho \frac{\mathrm{D} \mathbf{v}}{\mathrm{D} t}=\nabla \cdot \mathbb{P}+\rho \mathbf{f} \end{equation*} \begin{equation} \mathbf{E}=\sum_{i} \mathbf{E}_{i}=\mathbf{E}_{1}+\mathbf{E}_{2}+\mathbf{E}_{3}+\cdots \end{equation} \begin{align} a&amp;=b+c \\ d+e&amp;=f \end{align} \begin{alignat}{2} 10&amp;x+&amp;3&amp;y = 2 \\ 3&amp;x+&amp;13&amp;y = 4 \end{alignat} \begin{gather} a=b]]></description>
+    <description><![CDATA[<figure>
+</figure>
+
+<h1 id="hugo系列1---简单搭建教程与远程部署">Hugo系列(1) - 简单搭建教程与远程部署</h1>
+<h2 id="前言">前言</h2>
+<p>使用Hexo搭建个人博客也有两年多时间了，当文章数量达到上百篇之后，开始发现Hexo生成文章的效率越来越慢，直到每次生成都需要至少五分钟的时间。我发现生成效率和文章涉及到的分类和标签有很大关系，由于文章数量多，每篇文章又都关联了若干个分类和标签，再加上我使用了压缩样式的插件，最终导致极其低下的生成效率。</p>
+<p>在经过一段时间的考量后，决定将Hexo博客迁移到Hugo。Hugo是用go语言开发的，在用法上和Hexo类似，可以简单地把Hugo当成go语言版的Hexo，但是它拥有更快的生成效率。下面是官网的原话：</p>]]></description>
 </item>
 </channel>
 </rss>
