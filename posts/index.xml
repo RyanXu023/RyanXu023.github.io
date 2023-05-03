@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>所有文章 - RuiyangXu023&#39;s BLOG</title>
+        <title>所有文章 - XRY&#39;s BLOG</title>
         <link>https://example.com/posts/</link>
-        <description>所有文章 | RuiyangXu023&#39;s BLOG</description>
+        <description>所有文章 | XRY&#39;s BLOG</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>13348098813@163.com (Ruiyang Xu)</managingEditor>
             <webMaster>13348098813@163.com (Ruiyang Xu)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 02 May 2023 20:52:08 &#43;0800</lastBuildDate><atom:link href="https://example.com/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Test03</title>
