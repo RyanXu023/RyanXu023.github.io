@@ -1,15 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>All Posts - My New Hugo Site</title>
-        <link>http://example.org/posts/</link>
-        <description>All Posts | My New Hugo Site</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 02 May 2023 20:52:08 &#43;0800</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+        <title>所有文章 - RuiyangXu023&#39;s BLOG</title>
+        <link>https://example.com/posts/</link>
+        <description>所有文章 | RuiyangXu023&#39;s BLOG</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>13348098813@163.com (Ruiyang Xu)</managingEditor>
+            <webMaster>13348098813@163.com (Ruiyang Xu)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 02 May 2023 20:52:08 &#43;0800</lastBuildDate><atom:link href="https://example.com/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Test03</title>
-    <link>http://example.org/posts/test03/</link>
+    <link>https://example.com/test03/</link>
     <pubDate>Tue, 02 May 2023 20:52:08 &#43;0800</pubDate>
-    <author>RuiyangXu023</author>
-    <guid>http://example.org/posts/test03/</guid>
-    <description><![CDATA[问你一个问题哈 fyy，你现在在干嘛？]]></description>
+    <author>Ruiyang Xu</author>
+    <guid>https://example.com/test03/</guid>
+    <description><![CDATA[这是第一步 问你一个问题哈 fyy，你现在在干嘛？ $$ c = \pm\sqrt{a^2 + b^2} $$ \[ f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi \] \begin{equation*} \rho \frac{\mathrm{D} \mathbf{v}}{\mathrm{D} t}=\nabla \cdot \mathbb{P}+\rho \mathbf{f} \end{equation*} \begin{equation} \mathbf{E}=\sum_{i} \mathbf{E}_{i}=\mathbf{E}_{1}+\mathbf{E}_{2}+\mathbf{E}_{3}+\cdots \end{equation} \begin{align} a&amp;=b+c \\ d+e&amp;=f \end{align} \begin{alignat}{2} 10&amp;x+&amp;3&amp;y = 2 \\ 3&amp;x+&amp;13&amp;y = 4 \end{alignat} \begin{gather} a=b]]></description>
 </item>
 </channel>
 </rss>
