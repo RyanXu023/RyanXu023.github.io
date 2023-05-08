@@ -1,6 +1,6 @@
 # Test03
 
-{{< figure src="/images/lighthouse.jpg" title="" >}}
+{{< figure src="/images/homeschool.jpg" title="" >}}
 
 # Hugo系列(1) - 简单搭建教程与远程部署
 
