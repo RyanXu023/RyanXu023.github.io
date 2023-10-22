@@ -1,0 +1,22 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>所有文章 - XRY&#39;s BLOG</title>
+        <link>https://example.com/posts/</link>
+        <description>所有文章 | XRY&#39;s BLOG</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>13348098813@163.com (Ruiyang Xu)</managingEditor>
+            <webMaster>13348098813@163.com (Ruiyang Xu)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 02 May 2023 20:52:08 &#43;0800</lastBuildDate><atom:link href="https://example.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Test03</title>
+    <link>https://example.com/test03/</link>
+    <pubDate>Tue, 02 May 2023 20:52:08 &#43;0800</pubDate>
+    <author>Ruiyang Xu</author>
+    <guid>https://example.com/test03/</guid>
+    <description><![CDATA[<figure>
+</figure>
+
+<h1 id="hugo系列1---简单搭建教程与远程部署">Hugo系列(1) - 简单搭建教程与远程部署</h1>
+<h2 id="前言">前言</h2>
+<p>使用Hexo搭建个人博客也有两年多时间了，当文章数量达到上百篇之后，开始发现Hexo生成文章的效率越来越慢，直到每次生成都需要至少五分钟的时间。我发现生成效率和文章涉及到的分类和标签有很大关系，由于文章数量多，每篇文章又都关联了若干个分类和标签，再加上我使用了压缩样式的插件，最终导致极其低下的生成效率。</p>
+<p>在经过一段时间的考量后，决定将Hexo博客迁移到Hugo。Hugo是用go语言开发的，在用法上和Hexo类似，可以简单地把Hugo当成go语言版的Hexo，但是它拥有更快的生成效率。下面是官网的原话：</p>]]></description>
+</item>
+</channel>
+</rss>
