@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>📚 系列 on 不爱上班</title>
+    <link>https://blog.hjroyal.top/posts/</link>
+    <description>Recent content in 📚 系列 on 不爱上班</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 11 Feb 2025 00:13:12 +0800</lastBuildDate><atom:link href="https://blog.hjroyal.top/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://blog.hjroyal.top/posts/test/</link>
+      <pubDate>Tue, 11 Feb 2025 00:13:12 +0800</pubDate>
+      
+      <guid>https://blog.hjroyal.top/posts/test/</guid>
+      <description>测试博客 今天是个好日子。</description>
+    </item>
+    
+  </channel>
+</rss>
